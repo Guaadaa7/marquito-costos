@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>MARQUITO COSTOS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="card">
+            <h1>MARQUITO COSTOS</h1>
+            <p>Ingrese el monto</p>
+
+            <input 
+                type="number" 
+                id="monto" 
+                placeholder="Ingrese el monto"
+                min="0"
+            >
+
+            <button onclick="calcular()">Calcular</button>
+
+            <div class="resultados" id="resultados">
+                <p><strong>Precio Base:</strong> <span id="precioBase">$0</span></p>
+                <p><strong>Débito / Efectivo:</strong> <span id="precioDebito">$0</span></p>
+                <p><strong>Crédito:</strong> <span id="precioCredito">$0</span></p>
+            </div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
