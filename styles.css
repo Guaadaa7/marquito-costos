@@ -14,13 +14,13 @@ body {
 }
 
 .container {
-    width: 100%;
-    padding: 20px;
+    width: 1000%;
+    padding: 100px;
 }
 
 .card {
     background: white;
-    max-width: 400px;
+    max-width: 500px;
     margin: auto;
     padding: 30px;
     border-radius: 20px;
@@ -43,7 +43,7 @@ input {
     width: 100%;
     padding: 12px;
     border-radius: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #a2b2b7;
     margin-bottom: 20px;
     font-size: 16px;
     outline: none;
@@ -51,7 +51,7 @@ input {
 }
 
 input:focus {
-    border-color: #2a5298;
+    border-color: #274b8a;
 }
 
 button {
@@ -79,6 +79,6 @@ button:hover {
 }
 
 .resultados p {
-    margin-bottom: 8px;
-    font-size: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
 }

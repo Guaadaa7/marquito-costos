@@ -17,8 +17,12 @@ function calcular() {
     precioDebito = Math.round(precioDebito);
     precioCredito = Math.round(precioCredito);
 
+    function formatPeso(valor) {
+        return valor.toLocaleString('es-AR');
+    }
+
     // Mostrar resultados con formato $
-    document.getElementById("precioBase").textContent = "$" + precioBase;
-    document.getElementById("precioDebito").textContent = "$" + precioDebito;
-    document.getElementById("precioCredito").textContent = "$" + precioCredito;
+    document.getElementById("precioBase").textContent = "$" + formatPeso(precioBase);
+    document.getElementById("precioDebito").textContent = "$" + formatPeso(precioDebito);
+    document.getElementById("precioCredito").textContent = "$" + formatPeso(precioCredito);
 }
